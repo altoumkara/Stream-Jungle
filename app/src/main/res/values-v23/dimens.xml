@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="player_control_toolbr_height">70dp</dimen>
+    <dimen name="space_bet_seekbar_media_control">8dp</dimen>
+    <dimen name="alvum_icon_player_activity">55dp</dimen>
+    <dimen name="text_title_size">20sp</dimen>
+    <dimen name="text_sub_title_size">16sp</dimen>
+</resources>

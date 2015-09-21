@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:id="@+id/track_row"
+    android:layout_height="@dimen/title_height"
+    android:paddingLeft="@dimen/tile_left_padding"
+    android:paddingRight="@dimen/tile_right_padding"
+    android:paddingTop="@dimen/tile_top_padding"
+    android:paddingBottom="@dimen/tile_bottom_padding">
+
+    <ImageView
+        android:layout_width="@dimen/icon_width"
+        android:layout_height="@dimen/icon_height"
+        android:id="@+id/artworkIV"
+        android:layout_marginRight="@dimen/icon_right_margin" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Song Title"
+            android:id="@+id/titleTV"
+            android:fontFamily="Roboto Regular"
+            android:textSize="@dimen/primary_txt_size"
+            android:singleLine="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="genre"
+            android:id="@+id/genreTV"
+            android:fontFamily="Roboto Regular"
+            android:textSize="@dimen/secondarY_txt_size"
+            android:singleLine="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>
